@@ -1,0 +1,87 @@
+:root {
+  --light-yellow: #fdf0d5;
+  --dark-pink: #780000;
+  --pink: #c1121f;
+  --dark-blue: #003049;
+  --light-blue: #669bbc;
+  --white: #fff;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+button {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+}
+
+body {
+  background-color: var(--light-yellow);
+  color: var(--dark-blue);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 200px;
+}
+
+.container {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  width: 500px;
+  padding: 50px 100px;
+  font-weight: 700;
+  background-color: var(--dark-blue);
+}
+
+fieldset {
+  border: none;
+}
+
+.container,
+button,
+input {
+  color: var(--white);
+}
+
+.input-num,
+.btn {
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.input-num {
+  background-color: var(--light-blue);
+  padding: 10px;
+  border: 1px solid var(--light-yellow);
+}
+.btn {
+  background-color: var(--pink);
+  width: 100%;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.output {
+  background-color: var(--dark-pink);
+}
+
+.hidden {
+  display: none;
+}
